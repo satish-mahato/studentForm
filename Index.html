@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+       <h1> School Registration Form</h1>
+       <p>Please fill out the form below to register.</p>
+    </header>
+    <main>
+        <form action="/login" method="post">
+            <fieldset>
+                <legend><b>Personal Information</b></legend>
+            
+                <label for="first-name">First Name:</label>
+                <input type="" name="first-name" required> <br> <br> 
+                <label for="last-name">Last Name:</label>
+                <input type="" name="last-name" required ><br> <br> 
+                <label for="date">Date of birth:</label>
+                <input type="date" name="date" required > <br> <br>
+                <label for="gender"> Gender:</label>
+                <input type="radio" name="gender" value="male">
+                <label for="male">Male</label> 
+                <input type="radio" name="gender" value="female">
+                <label for="female">Female</label> 
+                <input type="radio" name="gender" value="other">
+                <label for="other">Other</label>  <br> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required> <br> <br> 
+                <label for="phone">Phone:</label>
+                <input type="phone" id="phone" required> <br> <br> 
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend><b>Address Information</b></legend>
+                <label for="address">Address:</label><br>
+               <textarea id="address" rows="4" cols="40"></textarea><br><br>
+               <label for="city">City:</label>
+               <input type="text" id="city" > <br><br>
+               <label for="state">State:</label>
+               <input type="text" id="state" > <br><br>
+               <label for="code">Zip Code:</label>
+               <input type="text" id="code" > <br><br>
+
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend><b>Education Information</b></legend>
+               
+               <label for="high">High School:</label>
+               <input type="text" id="high" > <br><br>
+               <label for="gpa">Gpa:</label>
+               <input type="text" id="gpa" > <br><br>
+               <label for="major">Intended Major:</label>
+               <input type="text" id="major" > <br><br>
+               <label for="yeargud">Year of Graduation:</label>
+               <input type="text" id="yeargud"  > <br><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <b>Additional Information</b>
+                </legend>
+                <label for="interests & Hobbies">Interests & Hobbies</label><br>
+                <textarea id="intr" rows="5" cols="40"></textarea> <br><br>
+                <label for="Additional Comments">Additional Comments</label><br>
+                <textarea id="add" rows="5" cols="40"></textarea> <br><br>
+            </fieldset>
+            <hr>
+            <input type="submit" value="Register">
+            <hr>
+
+        </form>
+        
+
+    </main>
+    <footer>
+        @2024 code by satish singh
+    </footer>
+    
+</body>
+</html>
